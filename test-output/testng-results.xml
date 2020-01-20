@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67084" started-at="2019-12-05T17:57:18Z" finished-at="2019-12-05T17:58:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67084" started-at="2019-12-05T17:57:18Z" finished-at="2019-12-05T17:58:25Z">
+      <class name="yandex_TestCases.YandexSearchHomePageTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="launch" is-config="true" duration-ms="17554" started-at="2019-12-05T17:57:18Z" finished-at="2019-12-05T17:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="enterSearchText()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="enterSearchText" duration-ms="1538" started-at="2019-12-05T17:57:35Z" finished-at="2019-12-05T17:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="closeBrowser" is-config="true" duration-ms="943" started-at="2019-12-05T17:57:37Z" finished-at="2019-12-05T17:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="launch" is-config="true" duration-ms="12125" started-at="2019-12-05T17:57:38Z" finished-at="2019-12-05T17:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyNavigation()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="verifyNavigation" duration-ms="431" started-at="2019-12-05T17:57:50Z" finished-at="2019-12-05T17:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="closeBrowser" is-config="true" duration-ms="834" started-at="2019-12-05T17:57:50Z" finished-at="2019-12-05T17:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="launch" is-config="true" duration-ms="11433" started-at="2019-12-05T17:57:51Z" finished-at="2019-12-05T17:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifySearch()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="verifySearch" duration-ms="5415" started-at="2019-12-05T17:58:03Z" finished-at="2019-12-05T17:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="closeBrowser" is-config="true" duration-ms="858" started-at="2019-12-05T17:58:08Z" finished-at="2019-12-05T17:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="launch" is-config="true" duration-ms="11475" started-at="2019-12-05T17:58:09Z" finished-at="2019-12-05T17:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="FAIL" signature="verifyingTheVideoFeed()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="verifyingTheVideoFeed" duration-ms="2982" started-at="2019-12-05T17:58:20Z" finished-at="2019-12-05T17:58:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at yandex_Pages.YandexVideoSearchResultPage.clickOnVideo(YandexVideoSearchResultPage.java:30)
+at yandex_TestCases.YandexSearchHomePageTest.verifyingTheVideoFeed(YandexSearchHomePageTest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheVideoFeed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:yandex_TestCases.YandexSearchHomePageTest@271053e1]" name="closeBrowser" is-config="true" duration-ms="785" started-at="2019-12-05T17:58:24Z" finished-at="2019-12-05T17:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- yandex_TestCases.YandexSearchHomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
